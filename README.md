@@ -1,5 +1,5 @@
 # AR Industrial Demo
-This is a multi-platform demo that shows functionality between HoloLens 2 and mobile AR (ARKit / ARCore).
+This is a multi-platform demo that shows functionality between HoloLens 2 and mobile AR (ARKit / ARCore). Originally presented at the Microsoft Mixed Reality Developer Day 2020. Full talk recording available [here](https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Getting-started-with-the-HoloLens-2-and-Unity)
 
 It uses Unity's [AR Foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@3.1/manual/index.html) to enable tracking and rendering on the supported platforms. It uses [Universal Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@8.1/manual/index.html) to hit performant framerates on all platforms. 
 
