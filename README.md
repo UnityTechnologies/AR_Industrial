@@ -3,6 +3,8 @@ This is a multi-platform demo that shows functionality between HoloLens 2 and mo
 
 It uses Unity's [AR Foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@3.1/manual/index.html) to enable tracking and rendering on the supported platforms. It uses [Universal Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@8.1/manual/index.html) to hit performant framerates on all platforms. 
 
+![HeaderImage](https://user-images.githubusercontent.com/2120584/84608471-84bc0300-ae67-11ea-9062-be522a06125e.png)
+
 ## HoloLens 2 support
 The input for HoloLens 2 uses the native WindowsMR API's to recognize the pinch gesture and native XR API's to track the hands positions and rotations. 
 
@@ -25,6 +27,8 @@ void OnTapped(WindowsMRTappedGestureEvent eventArgs)
 ```
 
 ### Hand Tracking
+
+![IndustrialAR_Handtracking](https://user-images.githubusercontent.com/2120584/84608582-fac06a00-ae67-11ea-9e48-6a76ae72ff41.png)
 
 Get a list of devices based on characteristics 
 ```
@@ -68,6 +72,8 @@ void DeviceConnected(InputDevice device)
 
 ## Mobile AR Support
 Uses native `Input` class for determining when the user touches the device
+
+![IndustrialAR_Mobile](https://user-images.githubusercontent.com/2120584/84608546-d6fd2400-ae67-11ea-9dff-8b8163b31ea4.png)
 
 Use a reference to the camera to do a raycast based on the users touch position and call CallActivate()
 ```
